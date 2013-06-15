@@ -26,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1E50F17A176BEB4400D3ADAC /* vec_cin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vec_cin.h; sourceTree = "<group>"; };
+		1E88F4BE176A686500781A5B /* array_size.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = array_size.h; sourceTree = "<group>"; };
 		1EA7369B176A4F3500343DE3 /* cprimer exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cprimer exercise"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA7369E176A4F3500343DE3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1EA736A0176A4F3500343DE3 /* cprimer_exercise.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cprimer_exercise.1; sourceTree = "<group>"; };
@@ -64,7 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				1EA7369E176A4F3500343DE3 /* main.cpp */,
+				1E50F17A176BEB4400D3ADAC /* vec_cin.h */,
 				1EA736A7176A57DF00343DE3 /* grades_arrays.h */,
+				1E88F4BE176A686500781A5B /* array_size.h */,
 				1EA736A9176A5A5400343DE3 /* grades_vector.h */,
 				1EA736A0176A4F3500343DE3 /* cprimer_exercise.1 */,
 			);
@@ -222,6 +226,7 @@
 				1EA736A6176A4F3500343DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
