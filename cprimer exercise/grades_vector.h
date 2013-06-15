@@ -14,5 +14,22 @@ using namespace std;
 #endif
 
 void grades_vector() {
-    vector<int> x;
+    
+    vector<int> x(11, 0);
+    int grade;
+    while (cin >> grade && grade <= 100) {
+        cout << "running grades_vector" << endl;
+        auto iter = x.begin();
+        iter += (grade/10);
+        *iter += 1;
+        cout << &*iter << endl; /*when you created iter, it points to the vector object as a whole,
+                                 therefore to fetch individual memory addresses for elements, you have to
+                                 ask for the address to the pointer. so &*iter yields changing memory slots which are
+                                 being manipulated by iteration.*/
+    
+    }
+    for ( auto a : x ) {
+        cout << a << endl;
+    }
+    
 }
