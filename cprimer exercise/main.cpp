@@ -6,6 +6,7 @@
 #include "grades_vector.h"
 #include "array_size.h"
 #include "vec_cin.h"
+#include "cha4.h"
 
 using namespace std;
 
@@ -14,8 +15,9 @@ int main(int argc, const char   * argv[])
     //224
     //grades();
     
-    grades_vector();
-    
+//    grades_vector();
+    cha4();
+    return 0;
 //    read_svec();
     string astring;
     vector<string> svec;

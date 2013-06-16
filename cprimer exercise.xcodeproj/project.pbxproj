@@ -33,6 +33,7 @@
 		1EA736A0176A4F3500343DE3 /* cprimer_exercise.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cprimer_exercise.1; sourceTree = "<group>"; };
 		1EA736A7176A57DF00343DE3 /* grades_arrays.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = grades_arrays.h; sourceTree = "<group>"; };
 		1EA736A9176A5A5400343DE3 /* grades_vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = grades_vector.h; sourceTree = "<group>"; };
+		1ECAC5DA176CE1B200AE176D /* cha4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cha4.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				1EA7369E176A4F3500343DE3 /* main.cpp */,
+				1ECAC5DA176CE1B200AE176D /* cha4.h */,
 				1E50F17A176BEB4400D3ADAC /* vec_cin.h */,
 				1EA736A7176A57DF00343DE3 /* grades_arrays.h */,
 				1E88F4BE176A686500781A5B /* array_size.h */,
